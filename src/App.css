@@ -32,7 +32,32 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.letter {
+  transition: 0.4s;
+  transform: translateX(0);
+  cursor: grab;
+  color: gray;
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.letter:hover {
+  transform: translateY(-1rem);
+  background: -webkit-linear-gradient(120deg,
+      hsl(19, 90%, 52%), hsl(56, 100%, 50%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mennu {
+  width: 20px;
+  height: 5px;
+  background-color: grey;
+  margin: 3px 0;
 }

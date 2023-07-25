@@ -1,24 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import HomeScreens from './Screens/HomeScreens';
+import LoginScreen from './Screens/LoginScreen';
+import MainNavigation from './Navigation/MainNavigation';
+import RegisterScreen from './Screens/RegisterScreen';
+import ProfileScreen from './Screens/ProfileScreen';
+import Product from './Screens/ProductScreen';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <MainNavigation/>
+    </>
   );
 }
 
